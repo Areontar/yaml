@@ -11,7 +11,7 @@ Useful if you just want to read/write setting files in your Go programs.
 
 clone repo in GOPATH and run 
 ```
-go get yaml
+go get github.com/areontar/yaml
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ go get yaml
 After installing, use the following import path.
 
 ```go
-import "github.com/gosexy/yaml"
+import "github.com/areontar/yaml"
 ```
 
 Here's an example that creates a YAML file and writes some values on it:
@@ -28,7 +28,7 @@ Here's an example that creates a YAML file and writes some values on it:
 package main
 
 import (
-	"github.com/gosexy/yaml"
+	"github.com/areontar/yaml"
 )
 
 func main() {
