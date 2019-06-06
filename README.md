@@ -9,7 +9,7 @@ Useful if you just want to read/write setting files in your Go programs.
 
 ## Installation
 
-clone repo in go path and run 
+clone repo in GOPATH and run 
 ```
 go get yaml
 ```
